@@ -1,0 +1,25 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.row{
+    width: 250;
+    height: 250;
+}
+div img{
+    width: 400;
+    height: 300;
+    margin: 8px;
+    border: 2px solid #ff3d0036;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+   
+    transition: 400ms;
+
+}
+div :hover{
+    transform: scale(1.1);
+
+}
